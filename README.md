@@ -34,3 +34,9 @@ Run the ML (Gradient Boosting, Decision Tree, Random Forest, and Feature Importa
 To run the LSTM:
 LSTM_Loss_Accuracy.ibynb: ensure to load the tf_mini.csv and log_mini.csv datasets. The file contains the necessary preprocessing code, including one hot encoding the required variables. This file contains the simple LSTM models, along with their model loss and accuracy scores and their visualizations. The file contains a total of 4 different LSTM models: skip_1, skip_2, skip_3 , and not_skipped.
 HyperparameterTuning_skip1.ibynb and HyperparameterTuning_skip3.ibynb: Both of these files contain the refined LSTM models for skip_1 and skip_3, respectively. The files include the LSTM models with the addition of hyperparameter tuning, along with the necessary model loss, accuracy, AUC/ROC scores and curves. The files were initially created for further analysis to ensure that our models are not overfitting. 
+
+
+References:
+Link to data:
+https://www.aicrowd.com/challenges/spotify-sequential-skip-prediction-challenge/dataset_files
+Click on training_set_track_features_mini.tar
